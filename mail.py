@@ -15,7 +15,7 @@ dir_audio = 'static/audio/'
 def send_mail(filename, participants, sender_name):
 
     # Set up email details
-    sender_email = 'msg.meeting.summary@gmail.com'
+    sender_email = 'msg.meeting.summary@gmail.com' # pass- msg112233
     sender_password = 'ocydjfyhwcsreovv'
     recipient_emails = participants
     subject = 'Meeting Summary'
