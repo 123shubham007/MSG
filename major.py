@@ -1,7 +1,4 @@
-import pypyodbc as odbc
 import torch
-import json
-import requests, http
 import os
 from translate import Translator
 from gtts import gTTS

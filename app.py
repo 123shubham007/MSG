@@ -1,5 +1,4 @@
 import json
-import os
 from flask import Flask, render_template, request
 from datetime import datetime
 from major import index
