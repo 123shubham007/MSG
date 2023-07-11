@@ -1,13 +1,11 @@
-import pypyodbc as odbc
 import torch
-import json
-import requests, http
 import os
 from translate import Translator
 from gtts import gTTS
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 from fpdf import FPDF
 from datetime import datetime
+from mail import send_mail
 
 language_sel = {"English" : "en", 
                 "Portuguese": "pt", 
